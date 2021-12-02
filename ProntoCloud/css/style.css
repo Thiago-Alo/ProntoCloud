@@ -1,0 +1,126 @@
+html{
+    font-size: 62.5%;
+}
+body{
+    background-color: #ffffff;
+    font-family: 'Open Sans', sans-serif;
+}
+.main-container{
+    margin:0 auto;
+    width:100vw;
+}
+.container{
+    display:block;
+    float:left;
+    padding: 20px;
+    width:100%;
+    margin:0 auto;
+}
+header{
+    background:#fff;
+    display:block;
+    float:left;
+    width:100%;
+    padding:20px;
+    border-bottom: 1px solid #254159;
+}
+
+section{
+    font-size:1.5rem; /*15 px*/
+    width: 100%;
+    padding:20px;
+}
+h1, h2, h3, h4{
+    color: #254159;
+    margin:10px 0px 20px 0px;
+}
+h1{
+    font-size:2.4rem;
+    padding:10px;
+}
+h2 {
+    font-size: 2rem;
+}
+h3{
+    font-size: 1.8rem;
+}
+h4{
+    font-size: 1.6rem;
+    padding-top:10px;
+}
+p{
+    line-height:1.4;
+    margin-bottom: 10px;
+}
+ol{
+    margin-left: 30px;
+}
+ol li{
+    font-size: 1.4rem;
+    color:#454545;
+    line-height: 1.6;
+    margin:5px;
+}
+section nav{
+    display:block;
+    float:left;
+    width:30%;
+}
+nav li{
+    background-color:#efefef;
+    margin: 1px 20px 1px 0px;
+    padding: 10px;
+}
+nav li:hover{
+    background-color: #dfdfdf;
+}
+nav a{
+    text-decoration: none;
+    color:#254159;
+}
+nav a:hover{
+    color:#385874;
+}
+section article{
+    display:block;
+    float:left;
+    width:70%;
+}
+footer{
+    background-color:#254159;
+    display:block;
+    float:left;
+    width:100%;
+    padding:20px;
+}
+footer p{
+    color:#ffffff;
+    font-size:1.4rem;
+}
+footer small{
+    font-size:80%;
+    display:block;
+}
+
+.EYnmL_dUEmnSLdh2ep9xw{
+    visibility: hidden !important;
+}
+.cog-abuse .cog-wrapper{
+    visibility: hidden !important;
+}
+html .cog-branding .cog-branding--minimal .EYnmL_dUEmnSLdh2ep9xw{
+    visibility: hidden !important;
+}
+* .cog-branding .cog-branding--minimal .EYnmL_dUEmnSLdh2ep9xw .cog-branding__powered{
+    visibility: hidden !important;
+}
+.cog-icon {
+    visibility: hidden !important;
+}
+
+.cog-i-cogicon{
+    visibility:hidden !important;
+}
+.cog-branding__powered{
+    visibility: hidden !important;
+}
