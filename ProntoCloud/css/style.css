@@ -6,29 +6,32 @@ body{
     font-family: 'Open Sans', sans-serif;
 }
 .main-container{
+    display:block;
+    width:100%;
     margin:0 auto;
-    width:100vw;
+
 }
 .container{
     display:block;
     float:left;
-    padding: 20px;
-    width:100%;
-    margin:0 auto;
+    padding: 0;
+    width:98%;
+    margin:10px auto;
+    max-width: 1198px;
 }
 header{
     background:#fff;
     display:block;
     float:left;
     width:100%;
-    padding:20px;
+    padding:0;
     border-bottom: 1px solid #254159;
 }
 
 section{
     font-size:1.5rem; /*15 px*/
     width: 100%;
-    padding:20px;
+    padding:0;
 }
 h1, h2, h3, h4{
     color: #254159;
@@ -51,6 +54,21 @@ h4{
 p{
     line-height:1.4;
     margin-bottom: 10px;
+}
+#tenho-interesse {
+    background-color: #b8c8d6;
+    width: 100%;
+}
+
+#tenho-interesse form,
+.cognito.c-med .c-forms-form,
+.cognito.c-med .c-forms-form div {
+    background-color: #b8c8d6 !important;
+}
+
+#tenho-interesse .cognito .c-forms-form .c-forms-form-title h2,
+#tenho-interesse .cognito label[for], .cognito input[type=radio], .cognito input[type=checkbox] {
+    color: #385874;
 }
 ol{
     margin-left: 30px;
@@ -91,7 +109,7 @@ footer{
     display:block;
     float:left;
     width:100%;
-    padding:20px;
+    padding:0;
 }
 footer p{
     color:#ffffff;
@@ -124,7 +142,76 @@ html .cog-branding .cog-branding--minimal .EYnmL_dUEmnSLdh2ep9xw{
 .cog-branding__powered{
     visibility: hidden !important;
 }
+.cognito {
+    height: 350px ;
+    overflow: hidden ;
+}
 
+
+
+
+#banner{
+    background-image: url(../img/banner.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:cover;
+    width:100vw;
+    height: 60vh;
+}
+.container-legenda{
+    float:right;
+    margin:6vh 10vh 0 0;
+    width:30vw;
+}
+.legenda{
+    background-color:rgba(255,255,255, .6);
+    padding:20px;
+    border-radius:5px;
+    margin-bottom: 5rem;
+}
+.legenda h5,
+.legenda h4{
+    color:#254159;
+    line-height: 1.5;
+}
+.btn-cta{
+    border-radius: 25px;
+    display:inline;
+    background-color: orangered;
+    color:#fff;
+    font-size:1.8rem;
+    text-transform:uppercase;
+    box-shadow:1px 1px 4px #454545;
+    padding:10px 15px;
+    width:auto;
+    text-decoration:none;
+    font-weight: 300;
+    margin-left:15px;
+}
+#saiba-mais{
+    padding:40px 20px;
+}
+#saiba-mais p,
+#saiba-mais img{
+    width:45%;
+    display: block;
+    float:left;
+    padding:20px;
+}
+dl{
+    margin: 20px 0;
+}
+dt{
+    font-family:"Open Sans";
+    font-weight: 700;
+    font-size:1.6rem;
+    
+}
+dd{
+    margin-left:20px;
+    margin-bottom: 20px;
+    font-size:1.4rem;
+}
 @media (max-width: 765px){
 
     section{
@@ -139,4 +226,7 @@ html .cog-branding .cog-branding--minimal .EYnmL_dUEmnSLdh2ep9xw{
         flex-direction: row;
         width:500px;
     }  
+    .btn-cta{
+        float:left;
+    }
 }
