@@ -16,7 +16,7 @@ body{
     float:left;
     padding: 0;
     width:98%;
-    margin:10px auto;
+    margin-top:10px auto;
     max-width: 1198px;
 }
 header{
@@ -58,6 +58,7 @@ p{
 #tenho-interesse {
     background-color: #b8c8d6;
     width: 100%;
+
 }
 
 #tenho-interesse form,
@@ -197,6 +198,10 @@ html .cog-branding .cog-branding--minimal .EYnmL_dUEmnSLdh2ep9xw{
     display: block;
     float:left;
     padding:20px;
+}
+.form-interesse{
+    align-items: center;
+    margin-left:28%;
 }
 dl{
     margin: 20px 0;
