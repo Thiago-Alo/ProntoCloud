@@ -56,9 +56,8 @@ p{
     margin-bottom: 10px;
 }
 #tenho-interesse {
-    background-color: #b8c8d6;
     width: 100%;
-
+    margin-left: 40px;
 }
 
 #tenho-interesse form,
@@ -111,6 +110,7 @@ footer{
     float:left;
     width:100%;
     padding:0;
+    margin-top:3px;
 }
 footer p{
     color:#ffffff;
@@ -204,7 +204,7 @@ html .cog-branding .cog-branding--minimal .EYnmL_dUEmnSLdh2ep9xw{
     margin-left:28%;
 }
 dl{
-    margin: 20px 0;
+    margin: 0px 40px;
 }
 dt{
     font-family:"Open Sans";
@@ -213,9 +213,12 @@ dt{
     
 }
 dd{
-    margin-left:20px;
+    margin-left:40px;
     margin-bottom: 20px;
     font-size:1.4rem;
+}
+.duvidas{
+   padding:40px 20px;
 }
 @media (max-width: 765px){
 
