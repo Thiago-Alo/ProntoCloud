@@ -70,9 +70,7 @@ p{
 #tenho-interesse .cognito label[for], .cognito input[type=radio], .cognito input[type=checkbox] {
     color: #385874;
 }
-ol{
-    margin-left: 30px;
-}
+
 ol li{
     font-size: 1.4rem;
     color:#454545;
@@ -144,8 +142,10 @@ html .cog-branding .cog-branding--minimal .EYnmL_dUEmnSLdh2ep9xw{
     visibility: hidden !important;
 }
 .cognito {
-    height: 350px ;
-    overflow: hidden ;
+    height: 375px ;
+    margin-bottom:50px;
+    overflow:hidden;
+    float:left;
 }
 
 
@@ -200,8 +200,9 @@ html .cog-branding .cog-branding--minimal .EYnmL_dUEmnSLdh2ep9xw{
     padding:20px;
 }
 .form-interesse{
-    align-items: center;
-    margin-left:28%;
+   margin-left:28%;
+   height: 375px ;
+margin-bottom:50px;
 }
 dl{
     margin: 0px 40px;
